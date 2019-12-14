@@ -144,7 +144,7 @@ def MailSender(filename, time):
 
         s.starttls()
 
-        s.login(fromaddr, "#Ruch@01#")
+        s.login(fromaddr, "---- password here ---")
 
         text = msg.as_string()
 
